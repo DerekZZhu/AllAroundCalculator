@@ -66,8 +66,3 @@ def evaluate_expression(expression):
         return result
 
     return parse_expression()
-
-# Example usage
-expression = "2*3+5"
-result = evaluate_expression(expression)
-print(result)
