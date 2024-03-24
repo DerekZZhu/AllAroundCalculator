@@ -41,3 +41,4 @@ def division(arg1: float = Query(..., description="First number"), arg2: float =
 @app.get("/isprime")
 def isprime(arg1: float = Query(..., description="Value to be checked")):
     return {"res": False, "confidence": 0.98}
+
